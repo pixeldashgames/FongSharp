@@ -1,29 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alfre\\source\\FongSharp\\FSharpLib\\FSharpLib.fsproj": {}
+    "C:\\Users\\Leo\\source\\unity\\FongSharp\\FSharpLib\\FSharpLib.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Alfre\\source\\FongSharp\\FSharpLib\\FSharpLib.fsproj": {
+    "C:\\Users\\Leo\\source\\unity\\FongSharp\\FSharpLib\\FSharpLib.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alfre\\source\\FongSharp\\FSharpLib\\FSharpLib.fsproj",
+        "projectUniqueName": "C:\\Users\\Leo\\source\\unity\\FongSharp\\FSharpLib\\FSharpLib.fsproj",
         "projectName": "FSharpLib",
-        "projectPath": "C:\\Users\\Alfre\\source\\FongSharp\\FSharpLib\\FSharpLib.fsproj",
-        "packagesPath": "C:\\Users\\Alfre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alfre\\source\\FongSharp\\FSharpLib\\obj\\",
+        "projectPath": "C:\\Users\\Leo\\source\\unity\\FongSharp\\FSharpLib\\FSharpLib.fsproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo\\source\\unity\\FongSharp\\FSharpLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alfre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.203\\FSharp\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\ini-parser": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +46,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[7.0.200, )",
+              "version": "[7.0.300, )",
               "generatePathProperty": true
             }
           },
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
