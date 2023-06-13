@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JqgYHYSNpI2dFRiiahf0o0GrEgClSslRgRvszTzQ9hvCb9udXIt2Ru02CE9kSM++ztbgg0B0h5hXUQxV5umdMw==",
+  "dgSpecHash": "Wo39VIF8eKYBF4TZG1i2bukTjzHAnuefx2JqLHxH5BioBEji2mOQJKfmOjv1MpEmIMC96SpQYs9ujzicE7zEKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leo\\source\\unity\\FongSharp\\FSharpLib\\FSharpLib.fsproj",
+  "projectFilePath": "C:\\Users\\Alfre\\source\\FongSharp\\FSharpLib\\FSharpLib.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Leo\\.nuget\\packages\\fsharp.core\\7.0.300\\fsharp.core.7.0.300.nupkg.sha512"
+    "C:\\Users\\Alfre\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
   ],
   "logs": []
 }

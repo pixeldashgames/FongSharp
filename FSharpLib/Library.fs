@@ -1,4 +1,12 @@
 ﻿namespace FSharpLib
 
 module Lib =
-    printfn "Hello world!"
+    type State =
+        | Discovered of bool
+        | Undiscovered of bool
+        | Flagged of bool
+    type Cell = {
+        haveMine: bool
+        adjacentMines: int
+        state: State
+    }
