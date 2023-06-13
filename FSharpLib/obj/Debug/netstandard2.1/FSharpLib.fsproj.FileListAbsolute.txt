@@ -372,3 +372,14 @@ C:\Users\Leo\source\unity\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib
 C:\Users\Leo\source\unity\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.dll
 C:\Users\Leo\source\unity\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.xml
 C:\Users\Leo\source\unity\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.pdb
+C:\Users\Alfre\source\FongSharp\FSharpLib\bin\Debug\netstandard2.1\FSharpLib.deps.json
+C:\Users\Alfre\source\FongSharp\FSharpLib\bin\Debug\netstandard2.1\FSharpLib.dll
+C:\Users\Alfre\source\FongSharp\FSharpLib\bin\Debug\netstandard2.1\FSharpLib.pdb
+C:\Users\Alfre\source\FongSharp\FSharpLib\bin\Debug\netstandard2.1\FSharpLib.xml
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.fsproj.AssemblyReference.cache
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.AssemblyInfoInputs.cache
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.AssemblyInfo.fs
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.fsproj.CoreCompileInputs.cache
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.dll
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.xml
+C:\Users\Alfre\source\FongSharp\FSharpLib\obj\Debug\netstandard2.1\FSharpLib.pdb
