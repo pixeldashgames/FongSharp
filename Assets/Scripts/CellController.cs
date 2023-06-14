@@ -15,6 +15,7 @@ public class CellController : MonoBehaviour
     [SerializeField] private Sprite flagIcon;
     [SerializeField] private Sprite bombIcon;
     [SerializeField] private Color[] bombCountcolors;
+    private Action _addFlagAction;
 
     private Vector2Int _coords;
     private Lib.Cell _currentState;
@@ -22,32 +23,43 @@ public class CellController : MonoBehaviour
     private bool _flagged;
 
     private Action<Vector2Int> _onClickAction;
+    private Action _removeFlagAction;
 
-
-    public void OnMouseUpAsButton()
+    public void OnClick(int button)
     {
-        if (Input.GetMouseButtonUp(0) && !_currentState.discovered && !_flagged)
+        switch (button)
         {
-            _onClickAction?.Invoke(_coords);
-        }
-        else if (Input.GetMouseButtonUp(1) && !_currentState.discovered)
-        {
-            _flagged = !_flagged;
-            DrawCell();
+            case 0 when !_currentState.discovered && !_flagged:
+                _onClickAction?.Invoke(_coords);
+                break;
+            case 1 when !_currentState.discovered:
+                if (_flagged)
+                    _removeFlagAction?.Invoke();
+                else
+                    _addFlagAction?.Invoke();
+
+                _flagged = !_flagged;
+                DrawCell();
+                break;
         }
     }
 
-    public void Initialize(Action<Vector2Int> onClick, Vector2Int coords)
+    public void Initialize(Action<Vector2Int> onClick, Action addFlag, Action removeFlag, Vector2Int coords)
     {
         _coords = coords;
         _onClickAction = onClick;
+        _addFlagAction = addFlag;
+        _removeFlagAction = removeFlag;
     }
 
     public void SetState(Lib.Cell newCell)
     {
         _currentState = newCell;
-        if (_currentState.discovered)
+        if (_currentState.discovered && _flagged)
+        {
             _flagged = false;
+            _removeFlagAction?.Invoke();
+        }
 
         DrawCell();
     }
